@@ -1,0 +1,84 @@
+/* Pallete 
+	background: #222831; 
+	background: #393e46; 
+	background: #f96d00; 
+	background: #f2f2f2; 
+*/
+
+body{
+    background: #222831;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+h2 {
+    color: #f96d00;
+}
+#tablaNav{
+    display: flex;
+}
+#tablaNav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #393e46;
+    border-bottom: 1px solid transparent;
+    color: #f2f2f2;
+    width: 20%;
+    transition: 0.3s;
+}
+#tablaNav a:hover{
+    border-bottom: 1px solid #f96d00;
+}
+#divPrincipal{
+    background-color: #393e46;
+    margin: 10px;
+    padding: 15px;
+}
+#divPrincipalR34{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+#divPrincipalR34Texto{
+    grid-area: 1 / 2 / 1 / 2;
+    margin: 10px;    
+}
+#divPrincipalR34 img{
+    grid-area: 1 / 1 / 2 / 2;
+}
+#divPrincipalSupra {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+#divPrincipalSupraTexto {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 10px;  
+}
+#divPrincipalSupra img {
+    grid-area: 1 / 2 / 1 / 3;
+}
+#divPrincipalRX7 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+#divPrincipalRX7Texto {
+    grid-area: 1 / 2 / 1 / 2;
+    margin: 10px;  
+}
+#divPrincipalRX7 img {
+    grid-area: 1 / 1 / 1 / 2;
+}
+#divPrincipalGolf {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+#divPrincipalGolfTexto {
+    grid-area: 1 / 1 / 1 / 1;
+    margin: 10px;  
+}
+#divPrincipalGolf img {
+    grid-area: 1 / 2 / 1 / 2;
+}
