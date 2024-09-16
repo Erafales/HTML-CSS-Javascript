@@ -71,7 +71,7 @@ body{
 #main-content {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 80% 40%;
     padding-top: 50px;
 }
     #main-content-img{
@@ -105,6 +105,10 @@ body{
         border-radius: 20px;
         border-style: none;
         font-family:'Courier New', Courier, monospace;
+        background-color: #DCDCDC;
+    }
+    #main-content-buttons button:hover{
+        background-color: #D3D3D3;
     }
 /* Edición del footer */
 footer {    
@@ -123,7 +127,5 @@ footer {
 }
 #footer-list ul li a{
     text-decoration: none;
+    color: #222831
 }
-    #footer-list ul li a:visited{
-        color: #222831
-    }
