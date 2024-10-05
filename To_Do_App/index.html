@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To do App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <section id="addJob">
+            <div>
+                <h3 id="mainTitle">To Do App</h3>
+                <p id="textoInformativo">Para tachar una tarea pulsa sobre esta 1 vez, pulsa 2 veces para eliminarla</p>
+            </div>
+            <div>
+                <form onsubmit="event.preventDefault()">
+                    <input type="text" id="nombreTarea" placeholder="Tarea a añadir"/>
+                    <button id="btnAñadir">Añadir</button>
+                </form>
+            </div>
+        </section>
+        <section id="listaTareas">
+        </section>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

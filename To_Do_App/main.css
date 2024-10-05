@@ -1,0 +1,51 @@
+body{
+    background-color: #eaf6f6;
+    margin: 0;
+    font-family: sans-serif;
+}
+#addJob {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 100%;
+}
+#textoInformativo{
+    font-size: 14px;
+    color: #66bfbf;
+}
+#listaTareas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    width: 100%;
+}
+#listaTareas p {
+    width: 40%;
+    height: 30px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfefe;
+}
+#mainTitle {
+    font-size: 25px;
+    color: #66bfbf;
+}
+#nombreTarea{
+    border-color: transparent;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px; 
+    margin-right: 20px;
+    padding: 5px;
+}
+#btnAñadir{
+    background-color: #f76b8a;
+    border-color: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
