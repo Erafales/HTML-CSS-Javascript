@@ -10,10 +10,6 @@ body{
     padding-top: 30px;
     width: 100%;
 }
-#textoInformativo{
-    font-size: 14px;
-    color: #66bfbf;
-}
 #listaTareas{
     display: flex;
     align-items: center;
@@ -40,7 +36,8 @@ body{
     height: 40px;
     border-radius: 25px; 
     margin-right: 20px;
-    padding: 5px;
+    padding: 10px;
+    outline: none;
 }
 #btnAñadir{
     background-color: #f76b8a;
@@ -48,4 +45,5 @@ body{
     width: 100px;
     height: 40px;
     border-radius: 25px;
+    cursor: pointer;
 }
