@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="main-div">
+        <input id="printResult" disabled></input>
+            <br>
+            <button class="orangeButton" onclick="printNumber('*')">X</td>
+            <button onclick="printNumber('7')">7</td>
+            <button onclick="printNumber('8')">8</td>
+            <button onclick="printNumber('9')">9</td>
+            <button class="orangeButton" onclick="printNumber('/')">/</td>
+            <button onclick="printNumber('4')">4</td>
+            <button onclick="printNumber('5')">5</td>
+            <button onclick="printNumber('6')">6</td>
+            <button class="orangeButton" onclick="printNumber('+')">+</td>
+            <button onclick="printNumber('1')">1</td>
+            <button onclick="printNumber('2')">2</td>
+            <button onclick="printNumber('3')">3</td>
+            <button class="orangeButton" onclick="calculateResult()">=</td>
+            <button onclick="printNumber('-')">-</td>
+            <button onclick="printNumber('0')">0</td>
+            <button onclick="printNumber('.')">.</td>
+            <button class="orangeButton" onclick="clearResult()">C</td>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
