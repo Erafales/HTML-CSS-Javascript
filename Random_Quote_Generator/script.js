@@ -31,14 +31,11 @@ const htmlP = document.createElement('p')
 const mainSection = document.getElementById('mainSection')
 
 setTimeout(() => {
-    if(fetchData[20].authors.length === 0){
-        fetchData[20].authors.push({name: 'No author'})
-    }
-    for (i=0; i<(fetchData.length - 1); i++){
-        if(fetchData[i].authors[0].name === undefined){
-            console.log('miss author')
-        } {
-            mainSection.innerHTML += `<div class="card"><h2>${fetchData[i].title}</h2><p>${fetchData[i].authors[0].name}</p></div>`        
+    
+    fetchData.forEach(element =>{
+        if(element.authors.length === 0){
+            element.authors.push({name: 'No author'})
         }
-    }
-}, 3000)
+        mainSection.innerHTML += `<div class="card"><h2>${element.title}</h2><p>${element.authors[0].name}</p></div>`
+    });
+}, 2000)
