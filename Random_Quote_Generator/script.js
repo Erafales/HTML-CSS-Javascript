@@ -36,6 +36,6 @@ setTimeout(() => {
         if(element.authors.length === 0){
             element.authors.push({name: 'No author'})
         }
-        mainSection.innerHTML += `<div class="card"><h2>${element.title}</h2><p>${element.authors[0].name}</p></div>`
+        mainSection.innerHTML += `<div class="card"><h2>${element.title}</h2><p>${element.authors[0].name}</p><img src=./Assets/book.png></img</div>`
     });
 }, 2000)
